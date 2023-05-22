@@ -1,0 +1,60 @@
+{
+  "_from": "mineflayer-pathfinder",
+  "_id": "mineflayer-pathfinder@2.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-DpqaPbRzf3sievH8g/LXGwZ0jcwWCcRBpxP3egjIkI9ZaTgk6+Kpzm53DcfZqAzl54UoqXl2BZ5HU9PfGOTZtQ==",
+  "_location": "/mineflayer-pathfinder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mineflayer-pathfinder",
+    "name": "mineflayer-pathfinder",
+    "escapedName": "mineflayer-pathfinder",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mineflayer-pathfinder/-/mineflayer-pathfinder-2.1.1.tgz",
+  "_shasum": "8239a80835e376fb3c0cc0031a9fe713a3d44765",
+  "_spec": "mineflayer-pathfinder",
+  "_where": "/home/runner/Minecraft-247-V3",
+  "author": {
+    "name": "Karang"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "minecraft-data": "^3.1.1",
+    "prismarine-block": "^1.7.3",
+    "prismarine-entity": "^2.0.0",
+    "prismarine-item": "^1.5.0",
+    "prismarine-nbt": "^2.0.0",
+    "prismarine-physics": "^1.2.2",
+    "vec3": "^0.1.7"
+  },
+  "deprecated": false,
+  "description": "[![npm version](https://badge.fury.io/js/mineflayer-pathfinder.svg)](https://badge.fury.io/js/mineflayer-pathfinder) ![npm](https://img.shields.io/npm/dt/mineflayer-pathfinder) [![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/PrismarineJS/mineflayer-pathfinder) [![Issue Hunt](https://github.com/BoostIO/issuehunt-materials/blob/master/v1/issuehunt-shield-v1.svg)](https://issuehunt.io/r/PrismarineJS/mineflayer-pathfinder)",
+  "devDependencies": {
+    "minecraft-wrap": "^1.2.1",
+    "mineflayer": "^4.0.0",
+    "mineflayer-pathfinder": "file:./",
+    "mocha": "^9.0.0",
+    "prismarine-schematic": "^1.2.1",
+    "standard": "^17.0.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "mineflayer-pathfinder",
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "mocha_debug": "mocha --inspect-brk --reporter spec --exit",
+    "mocha_test": "mocha --reporter spec --exit",
+    "test": "npm run lint && npm run mocha_test"
+  },
+  "version": "2.1.1"
+}

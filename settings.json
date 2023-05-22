@@ -1,0 +1,46 @@
+{
+  "bot-account": {
+    "username": "Kotone",
+    "type": "offline"
+  },
+
+  "server": {
+    "ip": "aegan.aternos.host",
+    "port": 44971,
+    "version": "1.12.2"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 300,
+
+      "messages": [
+        "Type $help to get info."
+        
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
+  }
+}
