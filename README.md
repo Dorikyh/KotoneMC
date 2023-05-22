@@ -1,17 +1,11 @@
-# Afk Bot
-<p align="center"> 
-    <img src="https://img.shields.io/github/issues/urfate/afk-bot">
-    <img src="https://img.shields.io/github/forks/urfate/afk-bot">
-    <img src="https://img.shields.io/github/stars/urfate/afk-bot">
-    <img src="https://img.shields.io/github/license/urfate/afk-bot">
+# KotoneMC Bot
+
+<p align="center">
+    Minecraft Bot of Kotone project.
 </p>
 
 <p align="center">
-    Functional minecraft AFK bot for servers
-</p>
-
-<p align="center">
-    Anti-AFK, Auto-Auth, Microsoft/Mojang accounts support.
+    Basic commands about World Environment
 </p>
 
 ## Installation
@@ -28,13 +22,11 @@
 ## Features
 
  - Anti-AFK Kick Module
- - Move to target block after join
- - Mojang/Microsoft Account support
  - Chat log
- - Chat messages Module
  - Auto reconnect
- - Supported server versions: `1.8 - 1.18.2`
  
  ### License
- [MIT](https://github.com/urFate/Afk-Bot/blob/main/LICENSE)
+- This project utilizes a bot template based on the [MIT](https://github.com/urFate/Afk-Bot/blob/main/LICENSE) license developed by [urFate](https://github.com/urFate/Afk-Bot). We appreciate the author and contributors of the template for their work and contribution to the development community. 
+
+
 
